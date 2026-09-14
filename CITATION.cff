@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this analysis, please cite it using the metadata below."
+title: "Low-flow droughts in the upper River Wensum"
+type: software
+authors:
+  - family-names: Abdipour
+    given-names: Moha
+version: 0.1.0
+abstract: >-
+  Threshold-based analysis of low-flow drought duration, deficit volume and
+  hydroclimatic context at the River Wensum at Fakenham, using openly licensed
+  Environment Agency and Met Office observations.
+keywords:
+  - hydrological drought
+  - low flow
+  - River Wensum
+  - groundwater
+  - water resources
+  - United Kingdom
+license: MIT
