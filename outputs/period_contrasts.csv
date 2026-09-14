@@ -1,0 +1,5 @@
+quality_screen,contrast,metric,mean_difference,ci_low,ci_high,bootstrap_replicates,block_length_years
+accepted,2005–2023 minus 1967–1985,mean days below Q90,15.719786,-7.358799,40.832598,10000,3
+accepted,2005–2023 minus 1967–1985,mean annual deficit m3,43050.060672,-68242.023529,156073.030588,10000,3
+good_only,2005–2023 minus 1967–1985,mean days below Q90,14.212938,-10.181565,40.343627,10000,3
+good_only,2005–2023 minus 1967–1985,mean annual deficit m3,42657.220662,-72340.21492,157537.116,10000,3
