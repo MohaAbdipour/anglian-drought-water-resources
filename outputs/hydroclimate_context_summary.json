@@ -1,0 +1,105 @@
+{
+  "analysis_end": "2023-12-31",
+  "reference_period": "1991-2020",
+  "uncensored_q90_event_count": 123,
+  "events_with_180d_rainfall_below_20th_percentile": 39,
+  "events_with_180d_rainfall_below_20th_percentile_percent": 31.70731707317073,
+  "events_with_groundwater_within_45_days": 93,
+  "events_with_groundwater_within_45_days_percent": 75.60975609756098,
+  "available_events_with_groundwater_below_20th_percentile": 21,
+  "available_events_with_groundwater_below_20th_percentile_percent": 22.580645161290324,
+  "groundwater_accepted_reading_count": 696,
+  "groundwater_median_sampling_gap_days": 28,
+  "largest_events": [
+    {
+      "start_date": "1991-06-29",
+      "duration_days": 143,
+      "deficit_volume_Mm3": 1.1969856000000003,
+      "rainfall_180d_percentile": 55.0,
+      "groundwater_percentile": 9.615384615384615
+    },
+    {
+      "start_date": "1996-05-31",
+      "duration_days": 90,
+      "deficit_volume_Mm3": 0.7905600000000003,
+      "rainfall_180d_percentile": 38.333333333333336,
+      "groundwater_percentile": 2.6315789473684212
+    },
+    {
+      "start_date": "1976-06-08",
+      "duration_days": 81,
+      "deficit_volume_Mm3": 0.6484320000000001,
+      "rainfall_180d_percentile": 0.0,
+      "groundwater_percentile": 76.19047619047619
+    },
+    {
+      "start_date": "1996-09-02",
+      "duration_days": 56,
+      "deficit_volume_Mm3": 0.38387520000000014,
+      "rainfall_180d_percentile": 8.333333333333334,
+      "groundwater_percentile": 18.181818181818183
+    },
+    {
+      "start_date": "2011-09-02",
+      "duration_days": 63,
+      "deficit_volume_Mm3": 0.33229440000000016,
+      "rainfall_180d_percentile": 21.666666666666668,
+      "groundwater_percentile": 82.5
+    },
+    {
+      "start_date": "1990-07-08",
+      "duration_days": 42,
+      "deficit_volume_Mm3": 0.3087936000000001,
+      "rainfall_180d_percentile": 60.0,
+      "groundwater_percentile": 25.0
+    },
+    {
+      "start_date": "2019-08-22",
+      "duration_days": 38,
+      "deficit_volume_Mm3": 0.19059840000000008,
+      "rainfall_180d_percentile": 41.666666666666664,
+      "groundwater_percentile": 52.5
+    },
+    {
+      "start_date": "2011-11-06",
+      "duration_days": 41,
+      "deficit_volume_Mm3": 0.1832544000000001,
+      "rainfall_180d_percentile": 21.666666666666668,
+      "groundwater_percentile": 32.608695652173914
+    },
+    {
+      "start_date": "2022-07-14",
+      "duration_days": 42,
+      "deficit_volume_Mm3": 0.1823904000000001,
+      "rainfall_180d_percentile": 3.3333333333333335,
+      "groundwater_percentile": ""
+    },
+    {
+      "start_date": "1997-09-02",
+      "duration_days": 36,
+      "deficit_volume_Mm3": 0.10765440000000005,
+      "rainfall_180d_percentile": 35.0,
+      "groundwater_percentile": 11.363636363636363
+    },
+    {
+      "start_date": "1991-11-27",
+      "duration_days": 21,
+      "deficit_volume_Mm3": 0.07698240000000003,
+      "rainfall_180d_percentile": 35.0,
+      "groundwater_percentile": 9.523809523809524
+    },
+    {
+      "start_date": "2006-07-14",
+      "duration_days": 12,
+      "deficit_volume_Mm3": 0.07335360000000002,
+      "rainfall_180d_percentile": 31.666666666666668,
+      "groundwater_percentile": ""
+    }
+  ],
+  "interpretation_limits": [
+    "HadSEEP is a South East England regional precipitation series, not catchment-average rainfall.",
+    "Groundwater observations are irregular and are not interpolated; only readings within 45 days of event onset are used.",
+    "One nearby Chalk borehole does not represent the full catchment groundwater system.",
+    "Associations provide hydroclimatic context and do not establish climatic attribution or remove abstraction effects."
+  ]
+}

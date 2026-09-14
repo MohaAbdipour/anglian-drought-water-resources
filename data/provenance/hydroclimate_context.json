@@ -1,0 +1,62 @@
+{
+  "retrieved_at_utc": "2026-09-14T08:00:41.365796+00:00",
+  "rainfall": {
+    "dataset": "HadUKP South East England precipitation (HadSEEP)",
+    "publisher": "Met Office Hadley Centre",
+    "unit": "mm",
+    "licence_name": "Open Government Licence",
+    "licence_page": "https://www.metoffice.gov.uk/hadobs/hadukp/terms_and_conditions.html",
+    "citation": "Alexander, L.V. and Jones, P.D. (2001), Updated precipitation series for the U.K. and discussion of recent extremes, Atmospheric Science Letters.",
+    "row_count": 34954,
+    "first_date": "1931-01-01",
+    "last_date": "2026-09-12",
+    "scope_note": "Regional areal precipitation context; not catchment-average rainfall."
+  },
+  "groundwater": {
+    "publisher": "Environment Agency",
+    "licence_name": "OGL 3",
+    "licence_url": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "api_version": "2.1.1",
+    "station_label_as_published": "Great Ryburg",
+    "station_guid": "995ca9a8-3dac-4e18-be65-9273a7bb0390",
+    "wiski_id": "TF92_671",
+    "aquifer": "Chalk",
+    "borehole_depth_m": 28.97,
+    "datum_mAOD": 32.23,
+    "date_opened": "1952-09-29",
+    "latitude": 52.807905,
+    "longitude": 0.908714,
+    "measure_id": "995ca9a8-3dac-4e18-be65-9273a7bb0390-gw-dipped-i-mAOD-qualified",
+    "unit": "mAOD",
+    "observation_type": "Qualified",
+    "row_count": 732,
+    "first_date": "1952-09-29",
+    "last_date": "2024-05-23"
+  },
+  "requests": {
+    "hadseep_daily": {
+      "url": "https://hadleyserver.metoffice.gov.uk/hadobs/hadukp/data/daily/HadSEEP_daily_totals.txt",
+      "raw_file": "data/raw/hadseep_daily.txt",
+      "bytes": 664278,
+      "sha256": "837e87b23a65aedc70c6367573830e9836a55ab5e661db5ab387c0d0beab1314"
+    },
+    "groundwater_station": {
+      "url": "https://environment.data.gov.uk/hydrology/id/stations/995ca9a8-3dac-4e18-be65-9273a7bb0390.json",
+      "raw_file": "data/raw/great_ryburg_station.json",
+      "bytes": 4105,
+      "sha256": "2593f24b8fd561953efa7f9d52e31d5f5116231dbb7487a3d89dbb798cee271f"
+    },
+    "groundwater_measure": {
+      "url": "https://environment.data.gov.uk/hydrology/id/measures/995ca9a8-3dac-4e18-be65-9273a7bb0390-gw-dipped-i-mAOD-qualified.json",
+      "raw_file": "data/raw/great_ryburg_measure.json",
+      "bytes": 4001,
+      "sha256": "99697cd7b894a36a667357035f3c896f2597aadbbe2f3863115ac3b9d120d128"
+    },
+    "groundwater_readings": {
+      "url": "https://environment.data.gov.uk/hydrology/id/measures/995ca9a8-3dac-4e18-be65-9273a7bb0390-gw-dipped-i-mAOD-qualified/readings.json?_limit=100000",
+      "raw_file": "data/raw/great_ryburg_readings.json",
+      "bytes": 164202,
+      "sha256": "cc5031f5bd4490d374fcf0d59f393ab0cb2a34da63193b1b68ac23d876fbf332"
+    }
+  }
+}
