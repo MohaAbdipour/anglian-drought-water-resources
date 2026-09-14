@@ -1,0 +1,7 @@
+quality_screen,reference_period,threshold,flow_m3s
+accepted,1991-01-01/2020-12-31,Q80,0.34
+accepted,1991-01-01/2020-12-31,Q90,0.274
+accepted,1991-01-01/2020-12-31,Q95,0.2203
+good_only,1991-01-01/2020-12-31,Q80,0.337
+good_only,1991-01-01/2020-12-31,Q90,0.273
+good_only,1991-01-01/2020-12-31,Q95,0.218
