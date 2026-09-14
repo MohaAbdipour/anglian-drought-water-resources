@@ -1,0 +1,52 @@
+{
+  "retrieved_at_utc": "2026-09-14T07:12:16.058643+00:00",
+  "publisher": "Environment Agency",
+  "licence_name": "OGL 3",
+  "licence_url": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+  "api_version": "2.1.1",
+  "station": {
+    "label": "Fakenham",
+    "river_name": "River Wensum",
+    "nrfa_station_id": "34011",
+    "ea_station_reference": "E25940",
+    "wiski_id": "034011",
+    "station_guid": "0b351234-b489-40c7-a846-def749d91f74",
+    "date_opened": "1966-05-01",
+    "latitude": 52.827341,
+    "longitude": 0.847451
+  },
+  "measure": {
+    "id": "0b351234-b489-40c7-a846-def749d91f74-flow-m-86400-m3s-qualified",
+    "label": "Daily mean Flow (m3/s) time series for Fakenham",
+    "parameter": "flow",
+    "period_seconds": 86400,
+    "value_type": "mean",
+    "unit": "m3/s",
+    "observation_type": "Qualified"
+  },
+  "record": {
+    "row_count": 22029,
+    "first_date": "1966-05-01",
+    "last_date": "2026-09-12"
+  },
+  "requests": {
+    "station": {
+      "url": "https://environment.data.gov.uk/hydrology/id/stations.json?search=Fakenham",
+      "raw_file": "data/raw/fakenham_station.json",
+      "bytes": 5097,
+      "sha256": "1385aa0d58006f57530717860b3b9619963844989ed398cce314cabb4890bbf4"
+    },
+    "measure": {
+      "url": "https://environment.data.gov.uk/hydrology/id/measures/0b351234-b489-40c7-a846-def749d91f74-flow-m-86400-m3s-qualified.json",
+      "raw_file": "data/raw/fakenham_measure.json",
+      "bytes": 5059,
+      "sha256": "ecb2030072e7078cf087186d6acc708875976a8ac4ae512985ffa6904cd1522a"
+    },
+    "readings": {
+      "url": "https://environment.data.gov.uk/hydrology/id/measures/0b351234-b489-40c7-a846-def749d91f74-flow-m-86400-m3s-qualified/readings.json?_limit=100000",
+      "raw_file": "data/raw/fakenham_readings.json",
+      "bytes": 6467083,
+      "sha256": "3013fdbf5e46d5f4d6a016ecddd49b206245f726e098399488ecb5ca9602993c"
+    }
+  }
+}

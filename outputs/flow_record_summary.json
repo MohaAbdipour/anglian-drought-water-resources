@@ -1,0 +1,37 @@
+{
+  "station": "River Wensum at Fakenham",
+  "nrfa_station_id": "34011",
+  "series": "Environment Agency qualified daily mean flow",
+  "unit": "m3/s",
+  "record_start": "1966-05-01",
+  "record_end": "2026-09-12",
+  "rows": 22029,
+  "unique_dates": 22029,
+  "duplicate_dates": [],
+  "missing_dates_within_observed_span": 21,
+  "longest_missing_run_within_observed_span_days": 13,
+  "numeric_rows": 21848,
+  "minimum_numeric_flow_m3s": 0.001,
+  "maximum_numeric_flow_m3s": 8.792,
+  "quality_counts": {
+    "Estimated": 619,
+    "Good": 20611,
+    "Missing": 181,
+    "Suspect": 99,
+    "Unchecked": 519
+  },
+  "completeness_counts": {
+    "Complete": 21621,
+    "Incomplete": 408
+  },
+  "reference_period_1991_2020": {
+    "expected_days": 10958,
+    "observed_rows": 10958,
+    "numeric_days": 10837,
+    "accepted_days": 10607,
+    "accepted_coverage_pct": 96.797,
+    "good_only_days": 10323,
+    "good_only_coverage_pct": 94.205
+  },
+  "interpretation_note": "Coverage and API quality flags are screened here; hydrometric suitability and artificial influences require separate interpretation."
+}
